@@ -1,0 +1,24 @@
+{
+  "name": "quarkly-recaptcha",
+  "version": "0.9.0",
+  "description": "quarkly module for using recaptcha v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryceru/quarkly-recaptcha.git"
+  },
+  "keywords": [
+    "quarkly",
+    "recaptcha",
+    "npm"
+  ],
+  "author": "Vladimir Alekseev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bryceru/quarkly-recaptcha/issues"
+  },
+  "homepage": "https://github.com/bryceru/quarkly-recaptcha#readme"
+}
