@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/bryceru/quarkly-recaptcha/issues"
   },
-  "homepage": "https://github.com/bryceru/quarkly-recaptcha#readme"
+  "homepage": "https://github.com/bryceru/quarkly-recaptcha#readme",
+  "dependencies": {
+    "@quarkly/atomize": "^1.0.8",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-recaptcha-v3": "^2.0.1",
+    "styled-components": "^5.0.1"
+  }
 }
