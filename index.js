@@ -3,7 +3,7 @@ import { loadReCaptcha, ReCaptcha } from 'react-recaptcha-v3'
 import atomize from "@quarkly/atomize";
 import styled from 'styled-components';
 
-const isDev = typeof window !== 'undefined' && window.QAPI && window.QAPI.mode === 'development';
+export const isDev = typeof window !== 'undefined' && window.QAPI && window.QAPI.mode === 'development';
 
 const Wrapper = styled.div`
   padding: 5px;

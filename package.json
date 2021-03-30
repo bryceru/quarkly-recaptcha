@@ -1,5 +1,5 @@
 {
-  "name": "quarkly-recaptcha",
+  "name": "@bryce.ru/quarkly-recaptcha",
   "version": "0.9.0",
   "description": "quarkly module for using recaptcha v3",
   "main": "index.js",
