@@ -1,14 +1,13 @@
 {
   "name": "@bryce.ru/quarkly-recaptcha",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "quarkly module for using recaptcha v3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
     "clean": "rm -rf build && mkdir build",
     "build:cjs": "NODE_ENV=cjs babel index.js --out-dir build/cjs --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
-    "build:esm": "NODE_ENV=esm babel index.js --out-dir build/esm --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
-    "publish": "npm publish --access public"
+    "build:esm": "NODE_ENV=esm babel index.js --out-dir build/esm --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules "
   },
   "main": "build/cjs",
   "module": "build/esm",

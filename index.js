@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { loadReCaptcha, ReCaptcha } from 'react-recaptcha-v3'
 import atomize from "@quarkly/atomize";
 import styled from 'styled-components';
@@ -15,15 +15,15 @@ const Wrap = isDev ? Wrapper : styled.div``;
 
 const Recaptcha = ({devApiKey, prodApiKey, ...props}) => {
   const sitekey = isDev ? devApiKey : prodApiKey;
-  const [token, setToken] = useState();
+  const [token, setToken] = useState('');
 
   const verifyCallback = (recaptchaToken) => {
     setToken(recaptchaToken);
   };
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     loadReCaptcha(sitekey);
-  }, []);
+  }, [sitekey]);
 
   return (
     <Wrap>
