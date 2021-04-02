@@ -32,7 +32,6 @@ const Recaptcha = ({devApiKey, prodApiKey, ...props}) => {
         sitekey={sitekey}
         action='submit'
         verifyCallback={verifyCallback}
-        {...props}
       />
       <input type="hidden" name="g-recaptcha-response" value={token} />
     </Wrap>
