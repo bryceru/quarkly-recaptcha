@@ -6,3 +6,4 @@ jest.config.js
 node_modules
 storybook-static
 publish.sh
+/*.js
